@@ -1,0 +1,47 @@
+body {
+    background-color: #101010;
+    color: white;
+    font-family: "Poppins", sans serif;
+}
+
+.menu {
+    text-align: center;
+    font-size: 14pt;
+    box-shadow: 1pt 2.5pt 3pt black;
+    height: 30px;
+    color: #07e6f5;
+}
+
+.intro {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 600px;
+    position: relative;
+    left: 450px;
+    top: 80px;
+}
+
+.selfie {
+    width: 150px;
+    position: relative;
+    top: 120px;
+    left: 680px;
+    box-shadow: 1pt 2.5pt 3pt black;
+}
+
+.conteudo-principal {
+    width: 600px;
+}
+
+a:link {
+    color: #07e6f5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #07e6f5;
+}
+
+a:hover {
+    color: #ff0077;
