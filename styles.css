@@ -59,6 +59,18 @@ body {
     top: 80px;
 }
 
+.intro-livros {
+    text-align: center;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    margin-bottom: 100px;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
+
+
 .selfie {
     width: 150px;
     position: relative;
@@ -76,6 +88,22 @@ body {
 }
 
 .conteudo-principal-feed p {
+    position: relative;
+    left: 250px;
+    text-align: justify;
+}
+
+.conteudo-principal-livros {
+    width: 1000px;
+}
+
+.conteudo-principal-livros p {
+    position: relative;
+    left: 250px;
+    text-align: justify;
+}
+
+.conteudo-principal-livros ul {
     position: relative;
     left: 250px;
     text-align: justify;
