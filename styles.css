@@ -93,6 +93,14 @@ body {
     text-align: justify;
 }
 
+.conteudo-principal-feed h1 {
+    position: relative;
+    left: 250px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
 .conteudo-principal-livros {
     width: 1000px;
 }
