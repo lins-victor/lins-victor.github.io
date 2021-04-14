@@ -45,7 +45,7 @@ body {
     width: 600px;
     position: relative;
     left: 450px;
-    top: 80px;
+    top: 60px;
 }
 
 .intro-feed {
@@ -74,7 +74,7 @@ body {
 .selfie {
     width: 150px;
     position: relative;
-    top: 120px;
+    top: 110px;
     left: 680px;
     box-shadow: 1pt 2.5pt 3pt black;
 }
@@ -120,7 +120,7 @@ body {
 .footer {
     position: relative;
     left: 450px;
-    top: 150px;
+    top: 130px;
     width: 600px;
     text-align: center;
     font-style: italic;
