@@ -14,7 +14,7 @@ body {
 
 .intro {
     text-align: center;
-    border-bottom-style: solid;
+    border-bottom-style: dashed;
     border-bottom-width: 1px;
     width: 600px;
     position: relative;
