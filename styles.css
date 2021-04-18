@@ -2,6 +2,9 @@ body {
     background-color: #101010;
     color: white;
     font-family: "Poppins", sans serif;
+    width: 600px;
+    position: relative;
+    left: 450px;
 }
 
 .menu {
@@ -43,23 +46,16 @@ body {
     border-bottom-style: dashed;
     border-bottom-width: 1px;
     width: 600px;
-    position: relative;
-    left: 450px;
-    top: 60px;
-    
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .title {
     text-align: center;
     border-bottom-style: dashed;
     border-bottom-width: 1px;
-    margin-bottom: 100px;
-    width: 1000px;
-    position: relative;
-    left: 250px;
-    top: 80px;
+    margin-bottom: 30px;
 }
-
 
 .selfie {
     width: 150px;
@@ -68,51 +64,54 @@ body {
     box-shadow: 1pt 2.5pt 3pt black;
 }
 
-.conteudo-principal {
-    width: 600px;
+.img-feed {
+    width: 500px;
     position: relative;
-    left: 450px;
-    top: 120px;
+    left: 15px;
+    margin-bottom: 20px;
 }
 
-.feed-content {
-    width: 1000px;
-    position: relative;
-    left: 250px;
-}
-
-.feed-content p {
-    text-align: justify;
-}
-
-.feed-content h1 {
+.img-caption-feed {
     text-align: center;
-    font-weight: 700;
-    font-size: 20pt;
+    position: relative;
+    bottom: 20px;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.date {
+    font-size: 10pt;
+    position: relative;
+    left: 525px;
 }
 
 .content {
-    width: 1000px;
     margin-bottom: 50px;
 }
 
-.content p {
-    position: relative;
-    left: 250px;
+.content h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.title h2 {
+    font-weight: 200;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 50px;
+}
+
+.content p, ul {
     text-align: justify;
 }
 
-.content ul {
-    position: relative;
-    left: 250px;
-    text-align: justify;
+.list-title {
+    color: #ff0077;
 }
 
 .footer {
-    position: relative;
-    left: 450px;
-    top: 130px;
-    width: 600px;
     text-align: center;
     font-style: italic;
 }
