@@ -59,7 +59,7 @@ body {
     top: 80px;
 }
 
-.intro-livros {
+.title {
     text-align: center;
     border-bottom-style: dashed;
     border-bottom-width: 1px;
@@ -101,17 +101,18 @@ body {
     font-size: 20pt;
 }
 
-.conteudo-principal-livros {
+.content {
     width: 1000px;
+    margin-bottom: 50px;
 }
 
-.conteudo-principal-livros p {
+.content p {
     position: relative;
     left: 250px;
     text-align: justify;
 }
 
-.conteudo-principal-livros ul {
+.content ul {
     position: relative;
     left: 250px;
     text-align: justify;
