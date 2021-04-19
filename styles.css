@@ -1,73 +1,71 @@
 body {
     background-color: #101010;
+    background-position: center;
+    background-size: cover;
     color: white;
     font-family: "Poppins", sans serif;
-    width: 600px;
+    width: 800px;
     position: relative;
-    left: 450px;
+    left: 350px;
 }
 
-.menu {
+.menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.menu ul li {
+    float: left;
+    width: 200px;
+    background-color: rgba(0,0,0, 0.1);
+    line-height: 40px;
     text-align: center;
-    box-shadow: 1pt 2.5pt 3pt black;
-    height: 30px;
-    color: #07e6f5;
-}
-
-.menu span {
     font-size: 12pt;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
-.menu span:hover {
-    background-color: darkblue;
-}
-
-.menu a:link {
-    color: #07e6f5;
+.menu ul li a{
     text-decoration: none;
-}
-
-.menu a:visited {
     color: #07e6f5;
+    display: block;
 }
 
-.menu a:hover {
-    background-color: darkblue;
+.menu ul li a:hover{
+    text-decoration: none;
+    color: #ff0077;
+    display: block;
+    background-color: rgba(0,0,0, 0.3);
 }
 
-.intro {
-    text-align: center;
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
-    width: 600px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+.menu ul li ul li{
+    display: none;
 }
 
-.title {
-    text-align: center;
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
-    margin-bottom: 30px;
+.menu ul li ul li:hover{
+    display: none;
+    background-color: rgba(8, 5, 85, 0);
+}
+
+.menu ul li:hover ul li{
+    display: block;
+}
+
+.menu li a:visited {
+    color: #07e6f5;
 }
 
 .selfie {
     width: 150px;
     position: relative;
-    left: 230px;
+    left: 325px;
     box-shadow: 1pt 2.5pt 3pt black;
 }
 
 .img-feed {
     width: 500px;
     position: relative;
-    left: 15px;
+    left: 120px;
     margin-bottom: 20px;
 }
 
@@ -79,10 +77,20 @@ body {
     font-style: italic;
 }
 
-.date {
-    font-size: 10pt;
-    position: relative;
-    left: 525px;
+.title {
+    text-align: center;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    font-weight: 700;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 50px;
 }
 
 .content {
@@ -95,12 +103,10 @@ body {
     font-size: 18pt;
 }
 
-.title h2 {
-    font-weight: 200;
-    font-size: 24pt;
-    text-align: center;
-    margin-bottom: -10px;
-    margin-top: 50px;
+.date {
+    font-size: 10pt;
+    position: relative;
+    left: 735px;
 }
 
 .content p, ul {
