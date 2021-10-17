@@ -4,30 +4,34 @@ body {
     background-size: cover;
     color: white;
     font-family: "Poppins", sans serif;
-    width: 800px;
+    width: 850px;
     position: relative;
     left: 350px;
 }
 
 .menu ul {
     list-style: none;
-    padding: 0px;
+    padding: 1px;
+    height: auto;
     margin: 0px;
-    position: relative;
+    position: absolute;
+    z-index: 1001;
 }
 
 .menu ul li {
     float: left;
-    width: 200px;
-    background-color: rgba(0,0,0, 0.1);
+    width: 210px;
+    background-color: rgba(0,0,0, 0.9);
     line-height: 40px;
     text-align: center;
     font-size: 12pt;
+    z-index: 1001;
 }
 
 .menu ul li a{
     text-decoration: none;
     color: #07e6f5;
+    padding: 0px;
     display: block;
 }
 
@@ -35,23 +39,28 @@ body {
     text-decoration: none;
     color: #ff0077;
     display: block;
-    background-color: rgba(0,0,0, 0.3);
+    padding: 0px;
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .menu ul li ul li{
+    padding: 0px;
     display: none;
 }
 
 .menu ul li ul li:hover{
     display: none;
+    padding: 0px;
     background-color: rgba(8, 5, 85, 0);
 }
 
 .menu ul li:hover ul li{
+    padding: 0px;
     display: block;
 }
 
 .menu li a:visited {
+    padding: 0px;
     color: #07e6f5;
 }
 
