@@ -4,9 +4,14 @@ body {
     background-size: cover;
     color: white;
     font-family: "Poppins", sans serif;
-    width: 850px;
+    width: 750px;
     position: relative;
-    left: 350px;
+    left: 570px;
+}
+
+.menu {
+    position: absolute;
+    left: 50px;
 }
 
 .menu ul {
@@ -14,7 +19,7 @@ body {
     padding: 1px;
     height: auto;
     margin: 0px;
-    position: absolute;
+    position: relative;
     z-index: 1001;
 }
 
@@ -43,8 +48,10 @@ body {
     background-color: rgba(0,0,0, 0.9);
 }
 
-.menu ul li ul li{
-    padding: 0px;
+.menu ul li ul li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 25px;
     display: none;
 }
 
@@ -67,7 +74,7 @@ body {
 .selfie {
     width: 200px;
     position: relative;
-    left: 325px;
+    left: 285px;
     box-shadow: 1pt 2.5pt 3pt black;
 }
 
@@ -90,7 +97,7 @@ body {
     text-align: center;
     border-bottom-style: dashed;
     border-bottom-width: 1px;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
